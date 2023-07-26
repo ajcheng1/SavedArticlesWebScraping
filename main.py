@@ -1,8 +1,7 @@
 import requests as req
 import time
 import pandas as pd
-''' Heavily inspired from this https://github.com/sivosevic/NYTimesNLP/blob/main/NYTimesTechDataCollection.ipynb'''
-# See this for more usage https://developer.nytimes.com/docs/articlesearch-product/1/overview
+
 class NYTArticleScraper:
     def __init__(self, api_key):
         self.api_key = api_key
@@ -47,8 +46,8 @@ class NYTArticleScraper:
         print(f'Data saved to "{output_file}"')
 
 if __name__ == "__main__":
-    API_KEY = 'YGctZWG2yi19oQRaYlBJnwvEj5E85ddc' # Replace with your actual API key
-    TOPIC = 'Single Parent' #insert key word
+    API_KEY = 'API key should be just a mix of random characters' # Replace with your actual API key
+    TOPIC = 'NATO Summit' #insert key word
 
     scraper = NYTArticleScraper(API_KEY)
     scraper.save_to_csv(TOPIC)
