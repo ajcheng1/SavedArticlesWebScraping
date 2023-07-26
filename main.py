@@ -35,7 +35,7 @@ class NYTArticleScraper:
                 articleNum+=1
                 articles.append(filtered_doc)
 
-            time.sleep(2) # Done to avoid hitting the API request limit. Optional,
+            time.sleep(2) # Done to avoid hitting the API request limit. Optional
         return articles
 
     def save_to_csv(self, topic, num_pages=10):
