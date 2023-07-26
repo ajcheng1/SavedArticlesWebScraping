@@ -6,3 +6,4 @@ Heavily inspired by this: https://medium.com/codex/web-scraping-the-new-york-tim
 Sign up for an API key from this link: https://developer.nytimes.com/. You do not need a NYT subscription to get a key, but much recommended to read the actual articles! 
 
 See this for more usage and modifying code https://developer.nytimes.com/docs/articlesearch-product/1/overview. 
+![image](https://github.com/ajcheng1/SavedArticlesWebScraping/assets/85465417/a682debc-35f1-44d8-8710-18ae53827423)
