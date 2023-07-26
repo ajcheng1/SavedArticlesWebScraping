@@ -3,4 +3,6 @@ An easier way to search New York Times articles by keyword formatted in an excel
 
 Heavily inspired by this: https://medium.com/codex/web-scraping-the-new-york-times-articles-with-python-part-i-e2d6fc02d4e0
 
-See this for more usage https://developer.nytimes.com/docs/articlesearch-product/1/overview. 
+Sign up for an API key from this link: https://developer.nytimes.com/. You do not need a NYT subscription to get a key, but much recommended to read the actual articles! 
+
+See this for more usage and modifying code https://developer.nytimes.com/docs/articlesearch-product/1/overview. 
