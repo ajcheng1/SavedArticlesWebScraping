@@ -2,7 +2,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from datetime import date
 
-'''To tranfer bookmarks to excel. Ensure the bookmarks are saved as an html file. Search "PycharmProjects" for folder'''
+'''To tranfer bookmarks to excel. Ensure the bookmarks are saved as an html file. '''
 
 def extract_bookmarks(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
